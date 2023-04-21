@@ -5,11 +5,11 @@ import Detalhes from "./componentes/Detalhes";
 import Topo from "./componentes/Topo";
 
 
-function Cesta() {
+function Cesta({topo, detalhes}) {
     return <>  
-    <Topo />
+    <Topo {...topo}/>
         <View style={estilos.cesta}>
-            <Detalhes />
+            <Detalhes {...detalhes} />
         </View>
             
     </>
