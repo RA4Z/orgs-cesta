@@ -1,5 +1,5 @@
 # orgs-cesta
-NPM Install,
+NPM INSTALL,
 
 NPM START,
 
